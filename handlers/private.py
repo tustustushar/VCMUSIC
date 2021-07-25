@@ -20,7 +20,7 @@ async def start(_, message: Message):
                         "𝐎𝐖𝐍𝐄𝐑😘", url="t.me/tushar204")
                   ],[
                     InlineKeyboardButton(
-                        "𝐒𝐔𝐏𝐏𝐎𝐑𝐓👿", url="https://t.me/LOVELYAPPEL"
+                        "𝐒𝐔𝐏𝐏𝐎𝐑𝐓👿", url="https://t.me/LOVELYAPPEAL"
                     ),
                     InlineKeyboardButton(
                         "𝐂𝐇𝐀𝐍𝐍𝐄𝐋", url="https://t.me/ABOUTVEDMAT"
