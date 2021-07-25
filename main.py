@@ -9,7 +9,7 @@ bot = Bot(
     API_ID,
     API_HASH,
     bot_token=BOT_TOKEN,
-    bot_username=BOT_USERNAME
+    bot_username=BOT_USERNAME,
     plugins=dict(root="handlers")
 )
 
