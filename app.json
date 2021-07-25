@@ -1,8 +1,8 @@
 {
-  "name": "Patricia",
+  "name": "Lovely",
   "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
   "keywords": ["music", "voicechat", "telegram"],
-  "repository": "https://github.com/TEAM-PATRICIA/PatriciaMusic2.0",
+  "repository": "https://github.com/attitudeking1/VCMUSIC",
   "stack": "container",
   "env": {
     "SESSION_NAME": {
