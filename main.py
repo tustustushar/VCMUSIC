@@ -10,7 +10,7 @@ bot = Bot(
     API_HASH,
     bot_token=BOT_TOKEN,
     bot_username=BOT_USERNAME
-    plugins=dict(root="handlers"),
+    plugins=dict(root="handlers")
 )
 
 bot.start()
