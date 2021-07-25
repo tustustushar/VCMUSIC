@@ -1,7 +1,7 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
-from config import BOT_NAME as bn
+from config import BOT_NAME,BOT_USERNAME
 from helpers.filters import other_filters2
 
 
@@ -9,7 +9,7 @@ from helpers.filters import other_filters2
 async def start(_, message: Message):
     await message.reply_photo("https://telegra.ph/file/002151a1eb0040d0b7b90.jpg")
     await message.reply_text(
-        f"""**Hey, I'm {bn} 🎀
+        f"""**Hey, I'm {BOT_NAME} 🎀
 ι ϲᴀɴ ρʟᴀʏ мᴜѕɪᴄ ιɴ γᴏᴜʀ gʀᴏᴜᴩ νᴏɪᴄᴇ ϲʜᴀᴛ. ∂ᴇᴠᴇʟᴏᴩᴇᴅ ϐʏ  [【TUSHAR】💞【ROMANTIC❤SHAYAR】](https://t.me/TUSHAR204) .
 αᴅᴅ мᴇ τᴏ γᴏᴜʀ gʀᴏᴜᴩ αɴᴅ ρʟᴀʏ мᴜѕɪᴄ ƒʀᴇᴇʟʏ!**
         """,
