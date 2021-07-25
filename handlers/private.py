@@ -31,7 +31,7 @@ async def start(_, message: Message):
                     )
                 ],[
                     InlineKeyboardButton(
-                        "➕𝐀𝐃𝐃 𝐓𝐎 𝐆𝐑𝐎𝐔𝐏➕", url="https://t.me/{BOT_USERNAME}?startgroup=true"
+                        "➕𝐀𝐃𝐃 𝐓𝐎 𝐆𝐑𝐎𝐔𝐏➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"
                     )]
             ]
         ),
